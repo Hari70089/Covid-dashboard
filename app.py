@@ -46,6 +46,8 @@ options2=[
 
 app = dash.Dash(__name__,external_stylesheets=external_stylesheet)
 
+server = app.server
+
 app.layout = html.Div([
     html.H1("Corona Virus Pandemic"),
     html.Div([
