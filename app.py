@@ -59,7 +59,7 @@ app.layout = html.Div([
                     html.H3("Total Case",className="text-light"),
                     html.H4(total,className="text-light"),
                 ],className="card-body")
-            ],className="card bg-sucess"),
+            ],className="card bg-success"),
         ],className="col-md-3"),
 
         # Total case card
