@@ -59,7 +59,7 @@ app.layout = html.Div([
                     html.H3("Total Case",className="text-light"),
                     html.H4(total,className="text-light"),
                 ],className="card-body")
-            ],className="card bg-danger"),
+            ],className="card bg-sucess"),
         ],className="col-md-3"),
 
         # Total case card
@@ -90,7 +90,7 @@ app.layout = html.Div([
                     html.H3("Total Death", className="text-light"),
                     html.H4(Deceased, className="text-light"),
                 ], className="card-body")
-            ], className="card bg-success"),
+            ], className="card bg-danger"),
         ],className="col-md-3"),
     ],className="row"),
 
